@@ -8,14 +8,14 @@
       </ul>
       </div>
       <div>
-         <h3>dia1</h3>
+         <h3>2019-08-23</h3>
       <ul v-for="trafico in traficos1" :key="id" >
         <span  v-if="trafico.FECHA == '2019-08-23'" >
           <div :class="{'rojo' : (trafico.TRAFICO <= 15),
                         'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
                          'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
                          'verde': (trafico.TRAFICO > 90 ),
-                         'gris': (trafico.TRAFICO===0),
+                         'gris': (trafico.TRAFICO === 0),
                          }"> 
                         {{trafico.TRAFICO}}
           </div>
@@ -23,7 +23,7 @@
       </ul>
       </div>
       <div>
-         <h3>dia2</h3>
+         <h3>2019-08-25</h3>
       <ul v-for="trafico in traficos1" :key="id" >
         <span  v-if="trafico.FECHA == '2019-08-25'" >
           
@@ -44,18 +44,130 @@
       </ul>
       </div>
       <div>
-         <h3>dia3</h3>
+         <h3>2019-08-27</h3>
       <ul v-for="trafico in traficos1" :key="id" >
         <span  v-if="trafico.FECHA == '2019-08-27'" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
             {{trafico.TRAFICO}}
+
+          </div>
         </span>
       </ul>
       </div>
       <div>
-         <h3>dia4</h3>
+         <h3>2019-08-29</h3>
       <ul v-for="trafico in traficos1" :key="id" >
         <span  v-if="trafico.FECHA == '2019-08-29'" :class="indicador" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
             {{trafico.TRAFICO}}
+
+          </div>
+        </span>
+      </ul>
+      </div>
+      <div>
+         <h3>2019-09-01</h3>
+      <ul v-for="trafico in traficos1" :key="id" >
+        <span  v-if="trafico.FECHA == '2019-09-01'" :class="indicador" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
+            {{trafico.TRAFICO}}
+
+          </div>
+        </span>
+      </ul>
+      </div>
+      <div>
+         <h3>2019-09-03</h3>
+      <ul v-for="trafico in traficos1" :key="id" >
+        <span  v-if="trafico.FECHA == '2019-09-03'" :class="indicador" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
+            {{trafico.TRAFICO}}
+
+          </div>
+        </span>
+      </ul>
+      </div>
+      <div>
+         <h3>2019-09-04</h3>
+      <ul v-for="trafico in traficos1" :key="id" >
+        <span  v-if="trafico.FECHA == '2019-09-04'" :class="indicador" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
+            {{trafico.TRAFICO}}
+
+          </div>
+        </span>
+      </ul>
+      </div>
+      <div>
+         <h3>2019-09-07</h3>
+      <ul v-for="trafico in traficos1" :key="id" >
+        <span  v-if="trafico.FECHA == '2019-09-07'" :class="indicador" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
+            {{trafico.TRAFICO}}
+
+          </div>
+        </span>
+      </ul>
+      </div>
+      <div>
+         <h3>2019-09-08</h3>
+      <ul v-for="trafico in traficos1" :key="id" >
+        <span  v-if="trafico.FECHA == '2019-09-08'" :class="indicador" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
+            {{trafico.TRAFICO}}
+
+          </div>
+        </span>
+      </ul>
+      </div>
+      <div>
+         <h3>2019-09-09</h3>
+      <ul v-for="trafico in traficos1" :key="id" >
+        <span  v-if="trafico.FECHA == '2019-09-09'" :class="indicador" >
+            <div :class="{'rojo' : (trafico.TRAFICO <= 15),
+                        'naranja': (trafico.TRAFICO > 15 && trafico.TRAFICO <= 40),
+                         'amarillo': (trafico.TRAFICO > 40 && trafico.TRAFICO <= 90),
+                         'verde': (trafico.TRAFICO > 90 ),
+                         'gris': (trafico.TRAFICO===0),
+                         }"> 
+            {{trafico.TRAFICO}}
+
+          </div>
         </span>
       </ul>
       </div>
